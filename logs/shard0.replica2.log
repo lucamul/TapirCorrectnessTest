@@ -1,2 +1,3 @@
 Unknown argument -c
-20240922-210151-7023 12256 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT
+20240922-231021-9132 25469 * SendMessageInternal (udptransport.cc:441): Sending large replication.ir.proto.DoViewChangeMessage message in 54 fragments
+20240922-231025-8699 25469 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT

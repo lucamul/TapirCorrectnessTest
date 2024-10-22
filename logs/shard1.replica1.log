@@ -1,2 +1,32 @@
 Unknown argument -c
-20240922-210151-7023 12270 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT
+20240922-231022-0651 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 387000, got 396000
+20240922-231022-0661 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 243000
+20240922-231022-0664 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 387000, got 405000
+20240922-231022-0666 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 252000
+20240922-231022-0668 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 387000, got 414000
+20240922-231022-0670 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 261000
+20240922-231022-0672 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 387000, got 423000
+20240922-231022-0674 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 270000
+20240922-231022-0676 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 387000, got 432000
+20240922-231022-0677 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 387000, got 441000
+20240922-231022-0679 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 279000
+20240922-231022-0681 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 387000, got 450000
+20240922-231022-0683 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 288000
+20240922-231022-0685 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 387000, got 459000
+20240922-231022-0687 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 297000
+20240922-231022-0688 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 387000, got 468000
+20240922-231022-0690 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 306000
+20240922-231022-0692 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 387000, got 477000
+20240922-231022-0693 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 315000
+20240922-231022-0694 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 324000
+20240922-231022-0695 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 342000
+20240922-231022-0696 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 369000
+20240922-231022-0698 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 387000
+20240922-231022-0699 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 405000
+20240922-231022-0700 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 432000
+20240922-231022-0701 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 441000
+20240922-231022-0703 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 459000
+20240922-231022-0704 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 468000
+20240922-231022-0706 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 486000
+20240922-231022-0707 25483 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 234000, got 495000
+20240922-231025-8706 25483 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT

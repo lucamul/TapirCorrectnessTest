@@ -1,2 +1,14 @@
 Unknown argument -c
-20240922-210151-7022 12251 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT
+20240922-231021-9396 25464 PANIC Sync            (server.cc:139):    Unimplemented!
+20240922-231021-9401 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x16958) [0x7fc796f3e958]
+20240922-231021-9402 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x4f7e2) [0x7fc796f777e2]
+20240922-231021-9403 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1c7a4) [0x7fc796f447a4]
+20240922-231021-9404 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1ec1b) [0x7fc796f46c1b]
+20240922-231021-9404 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1f3d3) [0x7fc796f473d3]
+20240922-231021-9405 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1273d) [0x7fc796f3a73d]
+20240922-231021-9406 25464 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libevent-2.1.so.7(+0x1ff58) [0x7fc796bbff58]
+20240922-231021-9406 25464 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libevent-2.1.so.7(event_base_loop+0x577) [0x7fc796bc18a7]
+20240922-231021-9407 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0xedfc) [0x7fc796f36dfc]
+20240922-231021-9407 25464 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7fc7962e9d90]
+20240922-231021-9408 25464 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7fc7962e9e40]
+20240922-231021-9409 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0xf045) [0x7fc796f37045]

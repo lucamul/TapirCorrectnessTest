@@ -20,7 +20,7 @@ mode="txn-l"            # Mode for storage system.
 
 nshard=2     # number of shards
 nclient=1    # number of clients to run (per machine)
-nkeys=10000  # number of keys to use
+nkeys=1000  # number of keys to use
 rtime=2      # duration to run
 
 tlen=2       # transaction length
@@ -67,6 +67,50 @@ done
 # Wait a bit for all replicas to start up
 sleep 2
 
+
+# Run the clients to populate
+echo "Running the client(s)"
+count=0
+for host in ${clients[@]}
+do
+  $srcdir/store/tools/start_client.sh "$srcdir/store/benchmark/$client \
+  -c $srcdir/store/tools/shard -N $nshard -f $srcdir/store/tools/keys \
+  -d $rtime -l $tlen -w 100 -k $nkeys -m $mode -e $err -s $skew -z $zalpha" \
+  $count $nclient $logdir
+
+  let count=$count+$nclient
+done
+
+# Wait for all clients to exit
+echo "Waiting for client(s) to exit..."
+for host in ${clients[@]}
+do
+  $srcdir/store/tools/wait_client.sh $client
+done
+
+rm /home/luca/TapirCorrectnessTest/logs/trace.txt
+
+# Run the clients to populate
+echo "Running the client(s)"
+count=0
+for host in ${clients[@]}
+do
+  $srcdir/store/tools/start_client.sh "$srcdir/store/benchmark/$client \
+  -c $srcdir/store/tools/shard -N $nshard -f $srcdir/store/tools/keys \
+  -d $rtime -l $tlen -w 100 -k $nkeys -m $mode -e $err -s $skew -z $zalpha" \
+  $count $nclient $logdir
+
+  let count=$count+$nclient
+done
+
+# Wait for all clients to exit
+echo "Waiting for client(s) to exit..."
+for host in ${clients[@]}
+do
+  $srcdir/store/tools/wait_client.sh $client
+done
+
+rm /home/luca/TapirCorrectnessTest/logs/trace.txt
 
 # Run the clients
 echo "Running the client(s)"
