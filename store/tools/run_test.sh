@@ -4,8 +4,8 @@
 trap "trap - SIGTERM && kill -- -$$" INT
 
 # Paths to source code and logfiles.
-srcdir="/home/luca/tapir"
-logdir="/home/luca/tapir/logs"
+srcdir="/home/luca/TapirCorrectnessTest"
+logdir="/home/luca/TapirCorrectnessTest/logs"
 mkdir -p $logdir
 
 # Machines on which replicas are running.
@@ -98,6 +98,6 @@ do
   $srcdir/store/tools/stop_replica.sh $srcdir/store/tools/shard$i.config > /dev/null 2>&1
 done
 # TODO: figure out how to get persistent log working and remove this
-#rm localhost\:5*
+rm localhost\:5*
 
 # Process logs

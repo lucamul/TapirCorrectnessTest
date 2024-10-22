@@ -102,7 +102,7 @@ Client::Begin()
 // Function to write to the log file
 void LogToFile(unsigned long operation_id, unsigned long client_id, unsigned long t_id, const std::string& mode, const std::string& key, const std::string& value) {
     // Open the file in append mode, creating it if it doesn't exist
-    std::ofstream log_file("/home/luca/tapir/logs/trace.txt", std::ios::app);
+    std::ofstream log_file("/home/luca/TapirCorrectnessTest/logs/trace.txt", std::ios::app);
     if (!log_file.is_open()) {
         std::cerr << "Failed to open log file!" << std::endl;
         return;

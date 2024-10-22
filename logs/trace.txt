@@ -1,1 +1,0 @@
-op_id, client_id, transaction_id, mode, key, value
