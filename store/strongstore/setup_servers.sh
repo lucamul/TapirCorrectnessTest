@@ -1,0 +1,1 @@
+./server -c shard0.config -i 0 -m occ & ./server -c shard0.config -i 1 -m occ & ./server -c shard0.config -i 2 -m occ & ./server -c shard1.config -i 0 -m occ & ./server -c shard1.config -i 1 -m occ & ./server -c shard1.config -i 2 -m occ & ./server -c shard2.config -i 0 -m occ & ./server -c shard2.config -i 1 -m occ & ./server -c shard2.config -i 2 -m occ

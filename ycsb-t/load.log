@@ -1,0 +1,7 @@
+YCSB Client 0.1
+Command line: -P workloads/workloada -load -db com.yahoo.ycsb.db.TapirClient -p tapir.configpath=../store/tools/shard -p tapir.nshards=1 -p tapir.closestreplica=0
+Loading workload...
+Starting test.
+20240922-193514-6653 28069 ! UnloggedRequestTimeoutCallback (client.cc:613):    Unlogged request timed out
+20240922-193515-1687 28069 ! ResendConsensus (client.cc:209):    Client timeout; resending consensus request: 2
+20240922-193515-6702 28069 ! ResendConsensus (client.cc:209):    Client timeout; resending consensus request: 2
