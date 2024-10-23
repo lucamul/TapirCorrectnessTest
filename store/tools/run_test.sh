@@ -5,9 +5,9 @@ trap "trap - SIGTERM && kill -- -$$" INT
 
 # Paths to source code and logfiles.
 srcdir="/home/luca/TapirCorrectnessTest"
-logdir="/home/luca/TapirCorrectnessTest/logs"
+logdir="$srcdir/logs"
 mkdir -p $logdir
-
+rm $logdir/trace*
 # Machines on which replicas are running.
 replicas=("localhost" "localhost" "localhost")
 
@@ -18,7 +18,7 @@ client="benchClient"    # Which client (benchClient, retwisClient, etc)
 store="tapirstore"      # Which store (strongstore, weakstore, tapirstore)
 mode="txn-l"            # Mode for storage system.
 
-nshard=2     # number of shards
+nshard=3     # number of shards
 nclient=5    # number of clients to run (per machine)
 nkeys=1000  # number of keys to use
 rtime=2      # duration to run
@@ -88,11 +88,11 @@ do
   $srcdir/store/tools/wait_client.sh $client
 done
 
-rm /home/luca/TapirCorrectnessTest/logs/trace.txt
+rm $logdir/trace*
 
-echo "sleep"
+echo "Waiting for data loading to be processed..."
 
-sleep 20
+sleep 5
 
 # Run the clients
 echo "Running the client(s)"

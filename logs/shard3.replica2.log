@@ -1,0 +1,15 @@
+Unknown argument -c
+20240923-141700-1832 11123 * SendMessageInternal (udptransport.cc:441): Sending large replication.ir.proto.DoViewChangeMessage message in 11 fragments
+20240923-141710-1861 11123 PANIC Sync            (server.cc:139):    Unimplemented!
+20240923-141710-1868 11123 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x16958) [0x7fa9b8edb958]
+20240923-141710-1870 11123 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x4f7e2) [0x7fa9b8f147e2]
+20240923-141710-1873 11123 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1c7a4) [0x7fa9b8ee17a4]
+20240923-141710-1874 11123 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1ec1b) [0x7fa9b8ee3c1b]
+20240923-141710-1876 11123 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1f3d3) [0x7fa9b8ee43d3]
+20240923-141710-1877 11123 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1273d) [0x7fa9b8ed773d]
+20240923-141710-1878 11123 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libevent-2.1.so.7(+0x1ff58) [0x7fa9b8b5ff58]
+20240923-141710-1880 11123 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libevent-2.1.so.7(event_base_loop+0x577) [0x7fa9b8b618a7]
+20240923-141710-1881 11123 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0xedfc) [0x7fa9b8ed3dfc]
+20240923-141710-1882 11123 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7fa9b8289d90]
+20240923-141710-1883 11123 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7fa9b8289e40]
+20240923-141710-1884 11123 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0xf045) [0x7fa9b8ed4045]

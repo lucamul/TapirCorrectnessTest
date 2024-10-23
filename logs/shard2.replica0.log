@@ -1,0 +1,3 @@
+Unknown argument -c
+20240923-141949-5171 12236 * SendMessageInternal (udptransport.cc:441): Sending large replication.ir.proto.DoViewChangeMessage message in 61 fragments
+20240923-141953-1703 12236 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT

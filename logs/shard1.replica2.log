@@ -1,15 +1,3 @@
 Unknown argument -c
-20240923-135648-6235 05824 * SendMessageInternal (udptransport.cc:441): Sending large replication.ir.proto.DoViewChangeMessage message in 69 fragments
-20240923-135658-6468 05824 PANIC Sync            (server.cc:139):    Unimplemented!
-20240923-135658-6472 05824 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x16958) [0x7fd1f546e958]
-20240923-135658-6473 05824 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x4f7e2) [0x7fd1f54a77e2]
-20240923-135658-6473 05824 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1c7a4) [0x7fd1f54747a4]
-20240923-135658-6474 05824 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1ec1b) [0x7fd1f5476c1b]
-20240923-135658-6474 05824 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1f3d3) [0x7fd1f54773d3]
-20240923-135658-6475 05824 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1273d) [0x7fd1f546a73d]
-20240923-135658-6475 05824 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libevent-2.1.so.7(+0x1ff58) [0x7fd1f50eff58]
-20240923-135658-6475 05824 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libevent-2.1.so.7(event_base_loop+0x577) [0x7fd1f50f18a7]
-20240923-135658-6476 05824 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0xedfc) [0x7fd1f5466dfc]
-20240923-135658-6476 05824 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7fd1f4819d90]
-20240923-135658-6477 05824 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7fd1f4819e40]
-20240923-135658-6477 05824 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0xf045) [0x7fd1f5467045]
+20240923-141949-3764 12227 * SendMessageInternal (udptransport.cc:441): Sending large replication.ir.proto.DoViewChangeMessage message in 61 fragments
+20240923-141953-1694 12227 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT
