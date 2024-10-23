@@ -1,33 +1,86 @@
 Unknown argument -c
-20240923-123451-7767 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123452-2771 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123452-7785 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123453-2798 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123453-7813 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123454-2816 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123454-7942 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123455-2918 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123455-7932 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123456-2943 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123456-7960 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123457-2982 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123457-8010 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123458-3036 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123458-8071 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123459-3050 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123459-8069 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123500-3088 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123500-8102 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123501-2747 30625 * SendMessageInternal (udptransport.cc:441): Sending large replication.ir.proto.DoViewChangeMessage message in 100 fragments
-20240923-123501-3112 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123501-8129 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123502-3141 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123502-8148 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123503-3171 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123503-8213 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123504-3235 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123504-8225 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123505-3240 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123505-8252 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123506-3266 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240923-123506-4828 30625 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT
+20240923-135638-9358 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135639-4383 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135639-9403 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135640-4412 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135640-9482 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135641-4498 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135641-9517 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135642-4536 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135642-9668 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135643-4650 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135643-9707 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135644-4714 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135644-9746 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135645-4854 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135645-9804 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135646-4838 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135647-0370 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135647-5184 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135648-0195 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135648-5272 05805 * SendMessageInternal (udptransport.cc:441): Sending large replication.ir.proto.DoViewChangeMessage message in 69 fragments
+20240923-135648-5328 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135649-0217 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135649-5225 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135650-0237 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135650-5244 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135651-0264 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135651-5274 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135652-0295 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135652-5312 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135653-0324 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135653-5342 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135654-0360 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135654-5373 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135655-0391 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135655-5404 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135656-0424 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135656-5442 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135657-0461 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135657-5476 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135658-0494 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135658-5266 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 324000
+20240923-135658-5268 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 2; expected start 162000, got 522000
+20240923-135658-5269 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 333000
+20240923-135658-5269 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 2; expected start 162000, got 531000
+20240923-135658-5270 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 342000
+20240923-135658-5271 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 2; expected start 162000, got 540000
+20240923-135658-5272 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 351000
+20240923-135658-5273 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 2; expected start 162000, got 549000
+20240923-135658-5273 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 360000
+20240923-135658-5274 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 2; expected start 162000, got 558000
+20240923-135658-5275 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 369000
+20240923-135658-5276 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 2; expected start 162000, got 567000
+20240923-135658-5277 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 378000
+20240923-135658-5278 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 2; expected start 162000, got 576000
+20240923-135658-5278 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 387000
+20240923-135658-5279 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 2; expected start 162000, got 585000
+20240923-135658-5280 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 396000
+20240923-135658-5281 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 2; expected start 162000, got 612000
+20240923-135658-5281 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 423000
+20240923-135658-5282 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 450000
+20240923-135658-5283 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 468000
+20240923-135658-5283 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 495000
+20240923-135658-5284 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 522000
+20240923-135658-5285 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 549000
+20240923-135658-5285 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 567000
+20240923-135658-5286 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 585000
+20240923-135658-5287 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 603000
+20240923-135658-5287 05805 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 0, got 612000
+20240923-135658-5507 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135659-0521 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135659-5537 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135700-0547 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135700-5565 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135701-0582 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135701-5599 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135702-0620 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135702-5628 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135703-0657 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135703-5663 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135704-0681 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135704-5688 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135705-0702 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135705-5712 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135706-0730 05805 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-135706-2358 05805 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT

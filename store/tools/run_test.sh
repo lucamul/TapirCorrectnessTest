@@ -21,7 +21,7 @@ mode="txn-l"            # Mode for storage system.
 nshard=2     # number of shards
 nclient=5    # number of clients to run (per machine)
 nkeys=1000  # number of keys to use
-rtime=10      # duration to run
+rtime=2      # duration to run
 
 tlen=5       # transaction length
 wper=10       # writes percentage
@@ -89,6 +89,10 @@ do
 done
 
 rm /home/luca/TapirCorrectnessTest/logs/trace.txt
+
+echo "sleep"
+
+sleep 20
 
 # Run the clients
 echo "Running the client(s)"
