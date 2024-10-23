@@ -1,14 +1,105 @@
 Unknown argument -c
-20240922-231021-9396 25464 PANIC Sync            (server.cc:139):    Unimplemented!
-20240922-231021-9401 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x16958) [0x7fc796f3e958]
-20240922-231021-9402 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x4f7e2) [0x7fc796f777e2]
-20240922-231021-9403 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1c7a4) [0x7fc796f447a4]
-20240922-231021-9404 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1ec1b) [0x7fc796f46c1b]
-20240922-231021-9404 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1f3d3) [0x7fc796f473d3]
-20240922-231021-9405 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1273d) [0x7fc796f3a73d]
-20240922-231021-9406 25464 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libevent-2.1.so.7(+0x1ff58) [0x7fc796bbff58]
-20240922-231021-9406 25464 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libevent-2.1.so.7(event_base_loop+0x577) [0x7fc796bc18a7]
-20240922-231021-9407 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0xedfc) [0x7fc796f36dfc]
-20240922-231021-9407 25464 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7fc7962e9d90]
-20240922-231021-9408 25464 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7fc7962e9e40]
-20240922-231021-9409 25464 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0xf045) [0x7fc796f37045]
+20240923-123451-7766 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123452-2770 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123452-7782 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123453-2796 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123453-7809 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123454-2816 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123454-7917 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123455-2906 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123455-7945 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123456-2941 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123456-7955 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123457-2968 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123457-8006 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123458-3033 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123458-8070 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123459-3060 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123459-8066 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123500-3092 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123500-8104 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123501-2783 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 351000
+20240923-123501-2785 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 360000
+20240923-123501-2786 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 369000
+20240923-123501-2786 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 378000
+20240923-123501-2787 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 387000
+20240923-123501-2789 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 396000
+20240923-123501-2790 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 405000
+20240923-123501-2791 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 414000
+20240923-123501-2792 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 423000
+20240923-123501-2792 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 432000
+20240923-123501-2793 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 441000
+20240923-123501-2794 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 450000
+20240923-123501-2795 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 459000
+20240923-123501-2796 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 468000
+20240923-123501-2797 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 477000
+20240923-123501-2798 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 486000
+20240923-123501-2799 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 495000
+20240923-123501-2801 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 504000
+20240923-123501-2802 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 513000
+20240923-123501-2803 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 522000
+20240923-123501-2804 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 531000
+20240923-123501-2805 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 540000
+20240923-123501-2806 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 549000
+20240923-123501-2808 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 558000
+20240923-123501-2809 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 567000
+20240923-123501-2809 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 576000
+20240923-123501-2810 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 585000
+20240923-123501-2811 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 603000
+20240923-123501-2812 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 630000
+20240923-123501-2812 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 639000
+20240923-123501-2814 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 657000
+20240923-123501-2815 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 666000
+20240923-123501-2816 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 684000
+20240923-123501-2817 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 693000
+20240923-123501-2817 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 702000
+20240923-123501-2818 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 414000
+20240923-123501-2819 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 711000
+20240923-123501-2820 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 720000
+20240923-123501-2820 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 729000
+20240923-123501-2821 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 747000
+20240923-123501-2822 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 765000
+20240923-123501-2822 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 810000
+20240923-123501-2823 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 819000
+20240923-123501-2824 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 441000
+20240923-123501-2825 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 855000
+20240923-123501-2826 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 270000, got 873000
+20240923-123501-2827 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 450000
+20240923-123501-2828 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 459000
+20240923-123501-2828 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 468000
+20240923-123501-2829 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 477000
+20240923-123501-2830 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 504000
+20240923-123501-2831 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 522000
+20240923-123501-2832 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 540000
+20240923-123501-2832 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 567000
+20240923-123501-2833 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 585000
+20240923-123501-2836 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 603000
+20240923-123501-2837 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 621000
+20240923-123501-2837 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 639000
+20240923-123501-2838 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 666000
+20240923-123501-2839 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 684000
+20240923-123501-2840 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 702000
+20240923-123501-2840 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 729000
+20240923-123501-2841 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 747000
+20240923-123501-2842 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 765000
+20240923-123501-2842 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 783000
+20240923-123501-2843 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 792000
+20240923-123501-2844 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 801000
+20240923-123501-2847 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 810000
+20240923-123501-2848 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 819000
+20240923-123501-2849 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 828000
+20240923-123501-2849 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 837000
+20240923-123501-2850 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 846000
+20240923-123501-2851 30620 ! OnReadable      (udptransport.cc:571): Fragments out of order for packet 1; expected start 396000, got 864000
+20240923-123501-3116 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123501-8124 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123502-3131 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123502-8148 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123503-3168 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123503-8201 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123504-3228 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123504-8223 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123505-3236 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123505-8249 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123506-3262 30620 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123506-4827 30620 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT

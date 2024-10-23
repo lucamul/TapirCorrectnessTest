@@ -258,7 +258,8 @@ main(int argc, char **argv)
 
             if (rand() % 100 < wPer) {
                 gettimeofday(&t3, NULL);
-                client->Put(key, key);
+                value = keys[rand_key()];
+                client->Put(key, value);
                 gettimeofday(&t4, NULL);
                 
                 putCount++;

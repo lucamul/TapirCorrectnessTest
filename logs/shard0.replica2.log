@@ -1,3 +1,33 @@
 Unknown argument -c
-20240922-231021-9132 25469 * SendMessageInternal (udptransport.cc:441): Sending large replication.ir.proto.DoViewChangeMessage message in 54 fragments
-20240922-231025-8699 25469 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT
+20240923-123451-7767 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123452-2771 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123452-7785 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123453-2798 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123453-7813 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123454-2816 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123454-7942 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123455-2918 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123455-7932 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123456-2943 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123456-7960 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123457-2982 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123457-8010 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123458-3036 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123458-8071 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123459-3050 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123459-8069 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123500-3088 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123500-8102 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123501-2747 30625 * SendMessageInternal (udptransport.cc:441): Sending large replication.ir.proto.DoViewChangeMessage message in 100 fragments
+20240923-123501-3112 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123501-8129 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123502-3141 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123502-8148 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123503-3171 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123503-8213 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123504-3235 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123504-8225 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123505-3240 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123505-8252 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123506-3266 30625 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240923-123506-4828 30625 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT
