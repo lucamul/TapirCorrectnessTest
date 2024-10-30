@@ -23,6 +23,7 @@ To collect such log follow these steps:
 7. your results should be in trace.txt in the logs directory
 
 results are in the format:
-operation_id, client_id, transaction_id, operation_type (r for reads w for writes), key, value 
+r(key,value,client_id,transaction_id)
+w(key,value,client_id,transaction_id)
 
 Remark: the only additions to this repo are the logging of transactions in store/tapirstore/client.cc and modification to clients in store/benchmark and run_test.sh to have a simple experiment which causes the correctness error 
