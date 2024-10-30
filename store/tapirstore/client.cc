@@ -108,8 +108,7 @@ void LogToFile(unsigned long operation_id, unsigned long client_id, unsigned lon
         return;
     }
 
-    // Write to the log file
-    log_file << operation_id << "," << client_id << "," << t_id << "," << mode << "," << key << "," << value << std::endl;
+    log_file << mode << "(" << key << "," << value << "," << client_id << "," << t_id << ")" << std::endl;
 }
 
 /* Returns the value corresponding to the supplied key. */

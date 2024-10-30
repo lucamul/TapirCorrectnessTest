@@ -19,15 +19,15 @@ store="tapirstore"      # Which store (strongstore, weakstore, tapirstore)
 mode="txn-l"            # Mode for storage system.
 
 nshard=3     # number of shards
-nclient=5    # number of clients to run (per machine)
-nkeys=1000  # number of keys to use
-rtime=2      # duration to run
+nclient=3    # number of clients to run (per machine)
+nkeys=10  # number of keys to use
+rtime=4      # duration to run
 
-tlen=5       # transaction length
-wper=10       # writes percentage
+tlen=6       # transaction length
+wper=80       # writes percentage
 err=0        # error
 skew=0       # skew
-zalpha=-1    # zipf alpha (-1 to disable zipf and enable uniform)
+zalpha=1.2    # zipf alpha (-1 to disable zipf and enable uniform)
 
 # Print out configuration being used.
 echo "Configuration:"
@@ -75,8 +75,8 @@ for host in ${clients[@]}
 do
   $srcdir/store/tools/start_client.sh "$srcdir/store/benchmark/loadClient \
   -c $srcdir/store/tools/shard -N $nshard -f $srcdir/store/tools/keys \
-  -d $rtime -l 1 -w 100 -k $nkeys -m $mode -e $err -s $skew -z $zalpha" \
-  $count $nclient $logdir
+  -d 2 -l 1 -w 100 -k $nkeys -m $mode -e $err -s $skew -z $zalpha" \
+  $count 1 $logdir
 
   let count=$count+$nclient
 done
@@ -88,12 +88,11 @@ do
   $srcdir/store/tools/wait_client.sh $client
 done
 
-rm $logdir/trace*
-
 echo "Waiting for data loading to be processed..."
 
 sleep 5
 
+rm $logdir/trace*
 # Run the clients
 echo "Running the client(s)"
 count=0
