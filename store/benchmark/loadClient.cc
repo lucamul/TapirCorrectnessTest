@@ -255,7 +255,7 @@ main(int argc, char **argv)
 
         key = keys[j];
 
-        value = keys[rand_key()];
+        value = std::to_string(static_cast<int>(beginLatency + j));
            
         gettimeofday(&t3, NULL);
         client->Put(key, value);

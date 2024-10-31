@@ -42,11 +42,13 @@ Client::Client(const string configPath, int nShards,
     // Initialize all state here;
     client_id = 0;
     while (client_id == 0) {
-        random_device rd;
-        mt19937_64 gen(rd());
-        uniform_int_distribution<uint64_t> dis;
+        std::random_device rd;
+        std::mt19937_64 gen(rd());
+        std::uniform_int_distribution<uint64_t> dis(0, 922337203685); // Set range for the distribution
+
         client_id = dis(gen);
     }
+
     t_id = (client_id/10000)*10000;
     op_id = 0;
     bclient.reserve(nshards);
@@ -102,7 +104,8 @@ Client::Begin()
 // Function to write to the log file
 void LogToFile(unsigned long operation_id, unsigned long client_id, unsigned long t_id, const std::string& mode, const std::string& key, const std::string& value) {
     // Open the file in append mode, creating it if it doesn't exist
-    std::ofstream log_file("/home/luca/TapirCorrectnessTest/logs/trace.txt", std::ios::app);
+    std::string file = "/home/luca/TapirCorrectnessTest/logs/trace.txt";
+    std::ofstream log_file(file, std::ios::app);
     if (!log_file.is_open()) {
         std::cerr << "Failed to open log file!" << std::endl;
         return;

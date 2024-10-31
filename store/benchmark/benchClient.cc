@@ -254,11 +254,12 @@ main(int argc, char **argv)
         beginLatency += ((t1.tv_sec - t4.tv_sec)*1000000 + (t1.tv_usec - t4.tv_usec));
         
         for (int j = 0; j < tLen; j++) {
-            key = keys[rand_key()];
+            //key = keys[rand_key()];
+            key = keys[j];
 
             if (rand() % 100 < wPer) {
                 gettimeofday(&t3, NULL);
-                value = keys[rand_key()];
+                value = std::to_string(static_cast<int>(beginLatency + j));
                 client->Put(key, value);
                 gettimeofday(&t4, NULL);
                 

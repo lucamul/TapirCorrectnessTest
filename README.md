@@ -26,4 +26,4 @@ results are in the format:
 r(key,value,client_id,transaction_id)
 w(key,value,client_id,transaction_id)
 
-Remark: the only additions to this repo are the logging of transactions in store/tapirstore/client.cc and modification to clients in store/benchmark and run_test.sh to have a simple experiment which causes the correctness error 
+Remark: the only additions to this repo are the logging of transactions in store/tapirstore/client.cc (where we added the method to log the transactions and we reduced the size of a client id to allow it to fit into a java long for our history checker) and modification to clients in store/benchmark and run_test.sh to have a simple experiment which causes the correctness error.
