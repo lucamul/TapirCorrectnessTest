@@ -116,7 +116,7 @@ void LogToFile(unsigned long op_id, unsigned long client_id, unsigned long t_id,
         return;
     }
 
-    log_file << mode << "(" << key << "," << value << "," << client_id << "," << op_id << ")" << std::endl;
+    log_file << mode << "(" << key << "," << value << "," << client_id << "," << t_id << ")" << std::endl;
 }
 
 /* Returns the value corresponding to the supplied key. */
