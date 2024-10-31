@@ -19,7 +19,7 @@ store="tapirstore"      # Which store (strongstore, weakstore, tapirstore)
 mode="txn-l"            # Mode for storage system.
 
 nshard=2     # number of shards
-nclient=2    # number of clients to run (per machine)
+nclient=3    # number of clients to run (per machine)
 nkeys=2  # number of keys to use
 rtime=1      # duration to run
 
@@ -92,7 +92,7 @@ echo "Waiting for data loading to be processed..."
 
 sleep 5
 
-rm $logdir/trace*
+#rm $logdir/trace*
 # Run the clients
 echo "Running the client(s)"
 for host in ${clients[@]}
