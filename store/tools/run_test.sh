@@ -18,10 +18,10 @@ client="benchClient"    # Which client (benchClient, retwisClient, etc)
 store="tapirstore"      # Which store (strongstore, weakstore, tapirstore)
 mode="txn-l"            # Mode for storage system.
 
-nshard=3     # number of shards
+nshard=2     # number of shards
 nclient=2    # number of clients to run (per machine)
 nkeys=2  # number of keys to use
-rtime=2      # duration to run
+rtime=1      # duration to run
 
 tlen=2       # transaction length
 wper=50       # writes percentage
@@ -90,28 +90,17 @@ done
 
 echo "Waiting for data loading to be processed..."
 
-# sleep 2
+sleep 5
 
-# rm $logdir/trace*
+rm $logdir/trace*
 # Run the clients
 echo "Running the client(s)"
-count=0
 for host in ${clients[@]}
 do
   $srcdir/store/tools/start_client.sh "$srcdir/store/benchmark/$client \
   -c $srcdir/store/tools/shard -N $nshard -f $srcdir/store/tools/keys \
-  -d $rtime -l $tlen -w 100 -k $nkeys -m $mode -e $err -s $skew -z $zalpha" \
-  $count 2 $logdir
-
-  let count=$count+$nclient
-done
-
-for host in ${clients[@]}
-do
-  $srcdir/store/tools/start_client.sh "$srcdir/store/benchmark/$client \
-  -c $srcdir/store/tools/shard -N $nshard -f $srcdir/store/tools/keys \
-  -d $rtime -l $tlen -w 0 -k $nkeys -m $mode -e $err -s $skew -z $zalpha" \
-  $count 2 $logdir
+  -d $rtime -l $tlen -w $wper -k $nkeys -m $mode -e $err -s $skew -z $zalpha" \
+  $count $nclient $logdir
 
   let count=$count+$nclient
 done

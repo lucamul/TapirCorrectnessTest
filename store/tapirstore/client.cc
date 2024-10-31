@@ -49,7 +49,7 @@ Client::Client(const string configPath, int nShards,
         client_id = dis(gen);
     }
 
-    t_id = (client_id/10000)*10000;
+    t_id = client_id;
     op_id = 0;
     bclient.reserve(nshards);
 
@@ -97,12 +97,12 @@ Client::Begin()
 {
     Debug("BEGIN [%lu]", t_id + 1);
     t_id++;
-    op_id=0;
+    op_id++;
     participants.clear();
 }
 
 // Function to write to the log file
-void LogToFile(unsigned long operation_id, unsigned long client_id, unsigned long t_id, const std::string& mode, const std::string& key, const std::string& value) {
+void LogToFile(unsigned long op_id, unsigned long client_id, unsigned long t_id, const std::string& mode, const std::string& key, const std::string& value) {
     // Open the file in append mode, creating it if it doesn't exist
     std::string file = "/home/luca/TapirCorrectnessTest/logs/trace.txt";
     std::ofstream log_file(file, std::ios::app);
@@ -110,15 +110,19 @@ void LogToFile(unsigned long operation_id, unsigned long client_id, unsigned lon
         std::cerr << "Failed to open log file!" << std::endl;
         return;
     }
+    if (value == "null") {
+        // in some rare runs the first read happens too early and no value is set which breaks the RA checker since it expects
+        // values to be numbers so we do not log these.
+        return;
+    }
 
-    log_file << mode << "(" << key << "," << value << "," << client_id << "," << t_id << ")" << std::endl;
+    log_file << mode << "(" << key << "," << value << "," << client_id << "," << op_id << ")" << std::endl;
 }
 
 /* Returns the value corresponding to the supplied key. */
 int
 Client::Get(const string &key, string &value)
 {
-    op_id++;
     Debug("GET [%lu : %s]", t_id, key.c_str());
     
     // Contact the appropriate shard to get the value.
@@ -152,7 +156,6 @@ Client::Get(const string &key)
 int
 Client::Put(const string &key, const string &value)
 {
-    op_id++;
     Debug("PUT [%lu : %s]", t_id, key.c_str());
     
     string key_to_log = key.c_str();

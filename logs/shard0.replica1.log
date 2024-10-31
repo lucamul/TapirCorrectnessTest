@@ -1,31 +1,54 @@
 Unknown argument -c
-20240931-142707-7316 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142707-9971 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142708-2333 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142708-4980 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142708-7339 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142708-9988 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142709-2384 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142709-5009 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142709-7380 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142710-0016 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142710-2401 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142710-5462 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142710-7405 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142711-0470 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142711-2423 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142711-5480 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142711-7441 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142712-0492 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142712-2451 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142712-5612 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142712-7460 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142713-1020 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142713-2541 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142713-6039 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142713-7616 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142714-1049 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142714-2637 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142714-6065 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142714-7749 12861 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
-20240931-142714-8135 12861 * SignalCallback  (udptransport.cc:784): Terminating on SIGTERM/SIGINT
+20240931-183921-0681 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183921-2059 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183921-5633 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183921-7068 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183922-0671 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183922-2083 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183922-5688 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183922-7112 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183923-0697 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183923-2121 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183923-5702 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183923-7132 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183924-0709 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183924-2141 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183924-5721 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183924-7151 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183925-0730 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183925-2161 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183925-5743 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183925-7179 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183926-0751 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183926-2187 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183926-5758 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183926-7195 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183927-0764 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183927-2211 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183927-5773 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183927-7220 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183928-0779 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183928-2227 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183928-5796 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183928-7236 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183929-0810 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183929-2241 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183929-5824 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183929-7256 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183930-0846 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183930-2290 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183930-5854 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183930-7283 07642 ! HandleFinalizeConsensus (replica.cc:261):   Finalize request for unknown consensus operation
+20240931-183930-8721 07642 PANIC Sync            (server.cc:139):    Unimplemented!
+20240931-183930-8751 07642 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x16958) [0x7fede4d38958]
+20240931-183930-8752 07642 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x4f7e2) [0x7fede4d717e2]
+20240931-183930-8753 07642 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1c7a4) [0x7fede4d3e7a4]
+20240931-183930-8754 07642 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1ec1b) [0x7fede4d40c1b]
+20240931-183930-8754 07642 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1f3d3) [0x7fede4d413d3]
+20240931-183930-8755 07642 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0x1273d) [0x7fede4d3473d]
+20240931-183930-8756 07642 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libevent-2.1.so.7(+0x1ff58) [0x7fede49bff58]
+20240931-183930-8756 07642 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libevent-2.1.so.7(event_base_loop+0x577) [0x7fede49c18a7]
+20240931-183930-8757 07642 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0xedfc) [0x7fede4d30dfc]
+20240931-183930-8758 07642 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7fede40e9d90]
+20240931-183930-8758 07642 ! _Panic          (message.cc:173):   /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7fede40e9e40]
+20240931-183930-8759 07642 ! _Panic          (message.cc:173):   /home/luca/TapirCorrectnessTest/store/tapirstore/server(+0xf045) [0x7fede4d31045]
