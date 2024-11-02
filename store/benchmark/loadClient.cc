@@ -255,7 +255,11 @@ main(int argc, char **argv)
 
         key = keys[j];
 
-        value = std::to_string(static_cast<int>(beginLatency + j));
+        std::random_device rd;
+        std::mt19937_64 gen(rd());
+        std::uniform_int_distribution<uint64_t> dis(0, 922337203685); // Set range for the distribution
+
+        value = std::to_string(dis(gen));
            
         gettimeofday(&t3, NULL);
         client->Put(key, value);

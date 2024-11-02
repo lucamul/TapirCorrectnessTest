@@ -19,7 +19,7 @@ store="tapirstore"      # Which store (strongstore, weakstore, tapirstore)
 mode="txn-l"            # Mode for storage system.
 
 nshard=2     # number of shards
-nclient=3    # number of clients to run (per machine)
+nclient=4    # number of clients to run (per machine)
 nkeys=2  # number of keys to use
 rtime=1      # duration to run
 

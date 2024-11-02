@@ -259,7 +259,11 @@ main(int argc, char **argv)
 
             if (rand() % 100 < wPer) {
                 gettimeofday(&t3, NULL);
-                value = std::to_string(static_cast<int>(beginLatency + j));
+                std::random_device rd;
+                std::mt19937_64 gen(rd());
+                std::uniform_int_distribution<uint64_t> dis(0, 922337203685); // Set range for the distribution
+
+                value = std::to_string(dis(gen));
                 client->Put(key, value);
                 gettimeofday(&t4, NULL);
                 
